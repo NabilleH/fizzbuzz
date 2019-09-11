@@ -28,5 +28,5 @@ describe 'fizzbuzz' do
   it 'returns "Error - invalid input" when passed a non integer' do
     expect(fizzbuzz("x")).to eq 'Error - invalid input'
   end
-  
+
 end
